@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+html, body{
+    margin: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.spiderMen {
+    background-image: url(./img/278842.700xp.jpg);
+    background-position: center;
+}
+
+.ironMen {
+    background-image: url(./img/1555447949.jpg);
+}
+
+.captalAmerica {
+    background-image: url(./img/капитан\ америка.png);
+}
+
+.avengers {
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/логотип.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.moveBack {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 1em;
+    top: 2em;
+    right: 2em;
+}
+
+@media (max-width: 1200px){
+    a {
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 768px){
+    .avengers{
+        position: static;
+        width: 100%;
+        height: 56%;
+    }
+    .spiderMen {
+        width: 100%;
+    }
+    .ironMen{
+        width: 100%;
+    }
+    .captalAmerica{
+        width: 100%;
+    }
+    a{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) and (orientation: landscape){
+    .avengers{
+        width: 100%;
+        height: 100%;
+    }
+    a{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    a{
+        font-size: 15px;
+    }
+     .avengers{
+        width: 100%;
+        height: 56%;
+    }
+    .spiderMen {
+        width: 100%;
+    }
+    .ironMen{
+        width: 100%;
+    }
+    .captalAmerica{
+        width: 100%;
+    }
+}
