@@ -1,0 +1,115 @@
+html, body{
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+h1 {
+    padding: 30px;
+    margin: 0px;
+    position: relative;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.window {
+    left: 550px;
+    width: 400px;
+    height: 600px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(23, 25, 41, 1);
+    border-radius: 27px;
+    position: absolute;
+    
+
+}
+
+.Required{
+    margin: 0;
+    padding: 0px 0px 20px;
+    color: rgba(121, 126, 163, 1);
+    display: flex;
+    justify-content: center;
+}
+h3 {
+    padding: 15px;
+    width: 65%;
+    height: 10%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+label{
+    margin: 5px;
+    padding: 5px;
+    color: rgba(121, 126, 163, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+input {
+    margin: auto;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    background-color: rgba(23, 25, 41, 1);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(121, 126, 163, 1) ;
+    font-family: 'Roboto';
+}
+
+input[type="text"], [type="tel"], [type="Email"] {
+    color: white;
+    font-family: 'Roboto';
+}
+
+input[type="checkbox"]{
+    margin: 0px 0px 0px 20px;
+    width: 5%;
+}
+
+p{
+    color: rgba(121, 126, 163, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+a {
+    color: rgba(121, 126, 163, 1);
+    font-family: 'Roboto';
+}
+
+button {
+    margin: 5px 0px 0px 150px;
+    height: 50px;
+    width: 100px;
+    background-color: rgba(44, 47, 71, 1);
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 28px;
+    outline: none;
+    border: none;
+    font-family: 'Roboto';
+}
+ 
